@@ -1,0 +1,99 @@
+import java.util.random;
+import java.util.Scanner;
+public class Test{
+    public static  void main(Strings []args){
+        int maxVaule = Integer.max_Vaule
+        System.out.println(maxVaule+1);
+        int minVaule = Integer.min_Vaule
+        System.out.println(minVaule-1);
+        long num = 10L;
+        System.out.println(Long.Max_Vaule);
+        System.out.println(Long.Min_Vaule);
+        int  num =10;
+        String str1 = num + "";
+        String str2 = String.vauleof(num);
+        String str = "100";
+        int num = Integer.parseInt(str);
+        int a = 0x1;
+        int b =0x2;
+        System.out.printf("%x\n",a^b);
+        int a = 0x10;
+        System.out.printf("%x\n",a<<1);
+        int a = 0x10;
+        System.out.printf("%x\n",a>>1);
+        int a = 10;
+        int b =20;
+        int max = a>b? a:b;
+        int sum = 0;
+        for(int i =0;i<=5;i++){
+            sum+=factor(i);
+        }
+        System.out.println("sum =" + sum);
+        public static int factor(int n){
+            int result = 1;
+            for(int i =1;i<=n;i++){
+                result *= i;
+            }
+        }
+        Random random = new Random();
+        Scanner scanner =  new Scanner(System.in);
+        int toGuess = random.nextInt(100) +1;
+        while(true){
+            System.out.println("请输入要输入的数字 ：（1-100)");
+            int num = scanner.nextInt;
+            if(num<toGuess){
+                System.out.println("低了");
+            }  else if(num>toGuess){
+                System.out.println("高了");
+            }  else{
+                System.out.println("猜对了");
+                break;
+            }    
+        }
+       sc.close;
+       Scanner sc =  new Scanner(System.in);
+       System.out.println("请输入你的名字 ：");
+       String name = sc.next;
+       System.out.println("请输入你的年龄:");
+       int age = sc.nextInt;
+       System.out.println("请输入你的工资:");
+       float salary =  sc.nextFloat();
+       System.out.println("你的信息如下:");
+       System.out.println("姓名：" + name);
+       System.out.println("年龄:" + age);
+       System.out.println("工资：" + salary);
+       Scanner sc =  new Scanner(System.in);
+       double sum = 0.0;
+       int num =0;
+       while(sc.hasNextDouble()){
+           double tmp =  sc.nextDouble();
+           num++;
+       }
+       System.out.println("sum = " + sum);
+       System.out.println("avg =" + sum/num); 
+       {
+       int a =  10;
+       int b =20;
+       int ret = add(a,b);
+       System.out.println("ret=" + ret);
+       double a1 = 10.3;
+       double b1 = 20.2;
+       double ret1 =  add(a1,b1);
+       System.out.println("ret1 =" + ret1);
+       double a2 = 10.2;
+       double b2 = 12.1;
+       double c2 = 12.4;
+       double ret2 = add(a2.b2,c2);
+       System.out.println("ret2 =" + ret2);
+       }
+       public static int add(int x,int y){
+           return x+y;
+       }
+       public static double add(double x, double y){
+           return x +y;
+       }
+       public static double add(double x, double y, double z ){
+           return x +y + z;
+       }
+    }
+}
